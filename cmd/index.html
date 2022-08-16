@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ascii art web</title>
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+	<div class="row" style="text-align: center;">
+		<h1 style="font-size: 25px; align-self: center;">Main page</h1>
+	</div>
+	
+	<form action="ascii-art" method="POST">
+		<div class="row">
+		<div class="col">
+			<h6 style="margin-left: 67px;">Choose the font</h6>
+			<input type="radio" id="contactChoice1"
+			 name="font" value="standard">
+			<label for="contactChoice1">Standard</label>
+		
+			<input type="radio" id="contactChoice2"
+			 name="font" value="thinkertoy">
+			<label for="contactChoice2">Thinkertoy</label>
+		
+			<input type="radio" id="contactChoice3"
+			 name="font" value="shadow">
+			<label for="contactChoice3">Shadow</label>
+		</div>
+		<div class="col">
+			<h6 style="margin-right: 30px;">Choose the color</h6>
+			<input type="radio" id="color1" name="color" value="blue">
+			<label for="color1">Blue</label>
+
+			<input type="radio" id="color2" name="color" value="red">
+			<label for="color2">Red</label>
+
+			<input type="radio" id="color3" name="color" value="green">
+			<label for="color3">Green</label>
+			
+			<input type="radio" id="color4" name="color" value="black">
+			<label for="color4">Black</label>
+			
+			<input type="radio" id="color5" name="color" value="purple">
+			<label for="color5">Purple</label>
+		</div>
+	</div>
+		<input type="text" name="input">
+		<button type="submit" name="submit">Submit</button>
+	</form>
+</body>
+</html>
